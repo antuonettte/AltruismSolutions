@@ -38,10 +38,7 @@ menuBtn.addEventListener('click', () => {
         
         mainContent.classList.add('open');
         
-        shadowOne.classList.add('open');
-        shadowTwo.classList.add('open');
-        shadowOne.classList.remove('closed');
-        shadowTwo.classList.remove('closed');
+   
         
         links.classList.remove('closed');
         menuOpen = true;
@@ -53,10 +50,7 @@ menuBtn.addEventListener('click', () => {
         
         mainContent.classList.remove('open');
         
-        shadowOne.classList.add('closed');
-        shadowTwo.classList.add('closed');
-        shadowOne.classList.remove('open');
-        shadowTwo.classList.remove('open');
+       
         
         links.classList.add('closed')
         menuOpen = false;

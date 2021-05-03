@@ -1,9 +1,46 @@
 .hero {
-  position: relative;
+  width: 100vw;
+  height: 100vh;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  z-index: 10;
+}
+
+.mission {
+  position: absolute;
+  z-index: 10;
+  left: 2%;
+}
+
+.container-fluid {
+  position: absolute;
+  right: 0%;
+  left: 0%;
+}
+
+.hero img {
+  width: 60vw;
+  position: absolute;
+  margin-bottom: 50px;
+}
+
+.layer {
+  width: 20vw;
+  position: absolute;
+}
+
+.intro {
+  position: relative;
+  justify-content: center;
+  font-family: Dosis;
+  color: #eee;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  word-spacing: 15px;
 }
 
 .center {
@@ -13,5 +50,8 @@
   align-items: center;
 }
 
-.man {
+.test {
+  border-color: blue;
+  border-width: 1px;
+  border-style: solid;
 }

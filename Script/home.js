@@ -18,7 +18,7 @@ let scene = new ScrollMagic.Scene({
 
 
 // var homeHero = bodymovin.loadAnimation({
-//     container: document.getElementById('animation'),
+//     container: document.getElementById('.animation'),
 //     renderer: 'svg',
 //     loop: true,
 //     autoplay: true,
@@ -30,14 +30,14 @@ let scene = new ScrollMagic.Scene({
 
 
 var anim;
-var elem = document.getElementById('animation')
+var elem = document.querySelector('.animation')
 
 var animData = {
     container: elem,
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: '../Res/Lottie Animations/webDevelopment.json'
+    path: '../Res/Lottie Animations/computerProgrammers.json'
 };
 
 anim = bodymovin.loadAnimation(animData);

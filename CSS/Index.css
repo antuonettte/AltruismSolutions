@@ -18,10 +18,9 @@ li .active {
 }
 
 body {
-  /* background-color: #001f2b !important; */
   font-family: Dosis;
   height: 500vh;
-  background-color: #222831 !important;
+  /* background-color: #eee !important; */
 }
 
 h1 {
@@ -47,7 +46,7 @@ h1 {
   font-weight: bolder;
   letter-spacing: 5px;
   padding-right: 20px;
-  color: #eee !important; /* #00719c*/
+  color: #1b262c !important; /**/
 }
 .brandName.mobile {
   display: none;
@@ -68,7 +67,7 @@ h1 {
 .menu-btn__burger {
   width: 50px;
   height: 6px;
-  background: #eee; /*#00719c*/
+  background: #1b262c; /*#00719c*/
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
   transition: all 0.2s ease-in-out;
@@ -79,7 +78,7 @@ h1 {
   position: absolute;
   width: 50px;
   height: 6px;
-  background: #eee; /*#00719c*/
+  background: #1b262c; /*#00719c*/
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
   transition: all 0.2s ease-in-out;
@@ -214,6 +213,14 @@ h1 {
 
 .textCenter {
   text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bolder {
+  font-weight: 900;
 }
 
 .textSpaced {

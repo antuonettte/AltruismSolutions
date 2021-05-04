@@ -37,12 +37,12 @@ menuBtn.addEventListener('click', () => {
         
         mainContent.classList.remove('open');
         
-        $(function(){
-            $('div.main-content').addClass('closing').delay(5000);
-            if(menuOpen){
-                $('div.main-content').delay(500).remove('closing');
-            }
-        });
+        // $(function(){
+        //     $('div.main-content').addClass('closing').delay(5000);
+        //     if(menuOpen){
+        //         $('div.main-content').delay(500).remove('closing');
+        //     }
+        // });
         
         
         links.classList.add('closed')
